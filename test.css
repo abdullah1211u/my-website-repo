@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.box{
+  padding: 20px;
+  background-color: red;
+  width: 120px;
+}
+.box2{
+  background-color: green;
+}
+.box3{
+  background-color:blue;
+}
