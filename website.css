@@ -84,22 +84,21 @@
   flex-direction: row-reverse;
   height: 50vh;
   padding: 10px;
-  color: white;
+  color: black;
   border: none;
-  background-image: url(""),
-  linear-gradient(45deg,rgb(225, 92, 106),rgb(33, 34, 35));
+  background-color: rgb(147, 220, 216);
   
 }
 .about-title{
   padding: 0%;
   font-size: 55px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 20px;
   border: none;
-  background-image: url(""),
-  linear-gradient(45deg,rgb(225, 92, 106),rgb(33, 34, 35));
+  background-color:rgb(147, 220, 216);
+  
   
 }
 .info-title{
@@ -111,4 +110,45 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 50vh;
+  padding: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(203, 160, 160);
+  
+}
+.service-title{
+  padding: 10px;
+  color: black;
+  text-align: center;
+  background-color: rgb(203, 160, 160);
+  
+}
+.box{
+  color:rgb(0, 0, 0);
+  width: 230px;
+  height: 270px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: rgb(192, 208, 212);
+  text-align: center;
+  padding: 15px;
+}
+.icon{
+  width: 70px;
+}
+.box-btn{
+  background-color:rgb(174, 170, 213);
+  margin-top: 10px;
+}
+.box-title{
+  padding: 10px;
+}
+.box-description{
+  padding: 10px;
 }
