@@ -162,6 +162,7 @@ footer{
   background-blend-mode: overlay;
   color: rgb(162, 214, 226);
   line-height: 1.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 .footer-container{
